@@ -1,0 +1,14 @@
+body:not(.something) *,
+body:not(.something) ::placeholder {
+    color: transparent !important;
+    background-image: none !important;
+}
+
+body:not(.something) img,
+body:not(.something) video,
+body:not(.something) canvas,
+body:not(.something) svg,
+body:not(.something) iframe {
+    opacity: 0 !important;
+}
+
